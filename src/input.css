@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "shabnamThin";
+    src: url(/public/fonts/shabnamThin.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "shabnamLight";
+    src: url(/public/fonts/shabnamLight.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "shabnamRegular";
+    src: url(/public/fonts/shabnamRegular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "shabnamMedium";
+    src: url(/public/fonts/shabnamMedium.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "shabnamBold";
+    src: url(/public/fonts/shabnamBold.woff2) format("woff2");
+}
+
+@import "tailwindcss";
+
+
+@theme {
+    --color-primary: #CB1B1B;
+    --font-shabnamThin: shabnamThin;
+    --font-shabnamLight: shabnamLight;
+    --font-shabnamRegular: shabnamRegular;
+    --font-shabnamMedium: shabnamMedium;
+    --font-shabnamBold: shabnamBold;
+}
+
+[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+}
