@@ -9,7 +9,7 @@
 </head>
 
 <body class="flex flex-col items-center font-shabnamBold overflow-x-hidden">
-    <header class="container w-[85%] flex flex-row justify-between items-center bg-neutral-50 py-6 px-8 rounded-2xl font-shabnamRegular text-neutral-600 absolute top-10">
+    <header class="container w-[85%] flex flex-row justify-between items-center bg-neutral-50 py-6 px-8 rounded-2xl font-shabnamRegular text-neutral-600 absolute top-10 z-50">
         <div class="flex flex-row gap-x-11 items-center">
             <a href="index.html">
                 <img src="/public/svg/webLogo.svg" alt="Saghfino Logo">
@@ -35,7 +35,6 @@
                 <a href="#">
                     <li>اخبار روز</li>
                 </a>
-
             </ul>
         </div>
 
@@ -45,7 +44,7 @@
         </div>
     </header>
 
-    <main class="flex flex-col mb-28">
+    <main class="flex flex-col items-center mb-28">
         <section class="w-screen h-screen mb-28 bg-[url(/public/images/homeBGImage.png)] bg-no-repeat bg-cover flex flex-col items-center gap-y-16">
             <div class="text-center text-white pt-72 z-10 font-shabnamBold space-y-3">
                 <h2 class="text-6xl text-neutral-200">سقفینو؛ سقفی برای همه</h2>
@@ -71,7 +70,7 @@
             </div>
         </section>
 
-        <div class="container w-[85%] mx-auto space-y-24">
+        <div class="container w-[85%] flex flex-col items-center gap-y-24">
             <section class="flex flex-col gap-y-8">
                 <h3 class="font-shabnamBold text-3xl text-neutral-800">سقفینو چطور به خانه‌دار شدن شما کمک می‌کند</h3>
 
@@ -156,7 +155,29 @@
                 </div>
             </section>
 
+            <section class="w-3xl flex flex-col items-center gap-y-10">
+                <div class="flex flex-col items-center">
+                    <h4 class="font-shabnamMedium text-[#212121] text-3xl">همه به شما مشاوره می‌دهند!</h4>
+                    <p class="font-shabnamRegular text-[#353535] text-2xl">اما در سقفینو مشاوران املاک کِنار شما می‌مانند</p>
+                </div>
 
+                <div class="grid grid-cols-3 gap-x-32">
+                    <div class="py-6 px-4 text-center rounded-2xl shadow flex flex-col gap-y-2 items-center">
+                        <img src="/public/svg/locationVector.svg" alt="Location Vector">
+                        <p class="w-36 font-shabnamRegular text-[#0C0C0C] text-lg">امکان خرید و اجاره ملک در اکثر نقاط کشور</p>
+                    </div>
+
+                    <div class="py-6 px-4 text-center rounded-2xl shadow flex flex-col gap-y-2 items-center">
+                        <img src="/public/svg/workTimeVector.svg" alt="Work Time Vector">
+                        <p class="w-36 font-shabnamRegular text-[#0C0C0C] text-lg">مقایسه و بررسی صدها ملک براحتی و در کمترین زمان</p>
+                    </div>
+
+                    <div class="py-6 px-4 text-center rounded-2xl shadow flex flex-col gap-y-2 items-center">
+                        <img src="/public/svg/peopleVector.svg" alt="People Vector">
+                        <p class="w-36 font-shabnamRegular text-[#0C0C0C] text-lg">ارتباط آسان با برترین املاک و مشاورین کشور</p>
+                    </div>
+                </div>
+            </section>
 
             <section class="flex flex-col gap-y-8">
                 <h3 class="font-shabnamBold text-3xl text-neutral-800">آخرین اخبار املاک را از سقفینو دنبال کنید</h3>
@@ -197,6 +218,10 @@
             </section>
         </div>
     </main>
+    
+    <footer>
+        
+    </footer>
 
 </body>
 
